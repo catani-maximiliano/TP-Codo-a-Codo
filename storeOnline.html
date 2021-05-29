@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Tiendas Online</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <!-- Load Require CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font CSS -->
+    
+		<!-- carga CSS -->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+            </style>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow-lg">
+
+        <!--navbar-expand-lg = envoltorio para que el navbar se estire en lg
+	navbar-light = texto negro de la letra
+	bg-white = fondo de color blanco
+	-->
+
+        <div id="container-nav" class="container d-flex justify-content-between align-items-center">
+
+            <a id="logo-navbar" class="navbar-brand h1" href="index.html">
+                <img id="logo-brand" src="/assets/img/logo_size.jpg" alt="brand">
+            </a>
+
+            <!--	boton de hamburguesa -->
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <!------------------------------------------- Opciones del Menu		-->
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between"
+                id="navbar-toggler-success">
+
+                <!-------collapse navbar-collapse= para agrupar y ocultar el contenido de la barra de navegación 
+		por un punto de interrupción principal.
+		flex-fill = obliga a que todos los elementos tengan el mismo tamaño de ancho
+		d-lg-flex = utilidades para crear un contenedor flexbox y transforme los elementos secundarios 
+		directos en elementos flexibles
+		-->
+                <div class="flex-fill mx-xl-5 mb-2">
+                    <!--	  mx=para clases que establecen tanto *-lefty*-right-->
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+                        <!--   .navbar-nav para una navegación ligera y de altura completa 
+					   (incluida la compatibilidad con menús desplegables).-->
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-2" href="index.html">Inicio</a>
+                            <!-- px = padding y mx es el margin 
+						rounded-pill =genera ese boton con bordes redondeados rounded-circle-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-2" href="pageWebs.html">Paginas webs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-2" href="storeOnline.html">Tiendas
+                                Online</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-2" href="about.html">Sobre
+                                Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-2"
+                                href="contact.html">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!---------------------------------------------------------Fin de las opciones del menu
+------------------------------------------------------------ Inicio de los iconos del menu-->
+                <div id="icon-navbar" class="navbar align-self-center d-flex">
+                    
+                    <a class="nav-link px-2" href="#"><span class="iconify" data-icon="bx:bx-store" data-inline="false"></span></i></a>
+                    <a class="nav-link px-2" href="#"><span class="iconify" data-icon="bx:bx-handicap" data-inline="false"></span></a>
+                    <a class="nav-link px-2" href="#"><span class="iconify" data-icon="bx:bx-question-mark" data-inline="false"></span></a>
+                    <!--	https://iconify.design/icon-sets/bx/-->
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!----------------------------------------------------------- Fin de los iconos del menu
+    <!-- Close Header -->
+
+
+    <!-- Start pricing -->
+    <div class="container-lg-12 py-5">
+        <div ><img id="baner-store1" src="/assets/img/ecommerce-banner01.jpg" alt="">
+        </div>
+        <div class="col-md-12 m-auto text-center py-5">
+            <h1 class="pricing-header h2 semi-bold-600">Servidores de Mail para Publicidad</h1>
+            <p class="pricing-footer">
+                Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut facilisis.
+            </p>
+        </div>
+
+
+        <div class="row px-lg-3">
+
+
+            <div  class="col-md-4 pb-5 pt-sm-0 mt-5 px-xl-3">
+                <div  id="color02" class="pricing-table card h-100 shadow-sm border-0 py-5">
+                    <div class="pricing-table-body card-body rounded-pill text-center align-self-center p-md-0">
+                        <i class="pricing-table-icon display-3 bx bx-package text-secondary"></i>
+                        <h2 class="pricing-table-heading h2 semi-bold-600">Tienda Gold</h2>
+                        <p>$25.000</p>
+                        <ul class="pricing-table-body text-start text-dark px-4 list-unstyled semi-bold-600">
+                            <li><i class="bx bxs-circle me-2"></i>1000 productos en muestra</li>
+                            <li><i class="bx bxs-circle me-2"></i>correos ilimitados</li>
+                            <li><i class="bx bxs-circle me-2"></i>importantes descuentos en Publicidad</li>
+                            <li><i class="bx bxs-circle me-2"></i>Soporte 24/7</li>
+                        </ul>
+                        <div class="pricing-table-footer pt-5">
+                            <a href="#" class="btn rounded-pill px-4 btn-outline-primary light-300">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 pt-sm-0 pt-3 px-xl-3">
+                <div id="color01" class="pricing-table card bg-secondary h-100 card-rounded shadow-sm border-0 py-5">
+                    <div class="pricing-table-body card-body text-center  align-self-center p-md-0">
+                        <i class="pricing-table-icon display-3 bx bx-package  py-3"></i>
+                        <h2 class="pricing-table-heading h2 semi-bold-600">Plan Básico</h2>
+                        <p>$5.000/Año</p>
+                        <ul class="pricing-table-list text-start text-dark px-4 list-unstyled semi-bold-600">
+                            <li ><i class="bx bxs-circle me-2"></i>99 productos en muestra</li>
+                            <li ><i class="bx bxs-circle me-2"></i>5 cuentas correo</li>
+                            <li ><i class="bx bxs-circle me-2"></i>Soporte 24/7</li>
+                        </ul>
+                        <div class="pricing-table-footer pt-5 pb-2">
+                            <a href="#" class="btn rounded-pill px-4 btn-outline-primary light-300">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 pb-5 pt-sm-0 mt-5 px-xl-3">
+                <div id="color02" class="pricing-table card h-100 shadow-sm border-0 py-5">
+                    <div class="pricing-table-body card-body text-center align-self-center p-md-0">
+                        <i class="pricing-table-icon display-3 bx bx-package text-secondary"></i>
+                        <h2 class="pricing-table-heading h2 semi-bold-600">Tienda Plus</h2>
+                        <p>$10.000/Year</p>
+                        <ul class="pricing-table-body text-start text-dark px-4 list-unstyled semi-bold-600">
+                            <li><i class="bx bxs-circle me-2"></i>350 productos en muestra</li>
+                            <li><i class="bx bxs-circle me-2"></i>100 cuenta correos</li>
+                            <li><i class="bx bxs-circle me-2"></i>descuentos en publicidad</li>
+                            <li><i class="bx bxs-circle me-2"></i>Soporte 24/7</li>
+                        </ul>
+                        <div class="pricing-table-footer pt-1">
+                            <a href="#" class="btn rounded-pill px-4 btn-outline-primary light-300">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- End Content -->
+
+
+
+
+
+    <!-- Start Pricing Horizontal Section -->
+ 
+    <!--End Pricing Horizontal Section-->
+
+    <section class="container py-5">
+
+        <h1 class="h2 semi-bold-600 text-center pt-5">Precios Campañas Publicitarias</h1>
+        <p class="text-center pb-5 semi-bold-600">
+            
+        </p>
+
+        <div class="row d-flex align-items-center pb-5">
+
+            <div  class="col-lg-6 offset-lg-0 col-md-8 offset-md-2 ">
+                <img id="vector-store-contain" class="rounded float-left border-dark shadow-lg " src="./assets/img/vectorstock_31900962.png">
+            </div>
+
+            <div class="col-lg-6">
+
+                <!-- Start Pricing List -->
+                <div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5 shadow-lg">
+                    <div class="row p-2">
+                        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
+                            <i class="display-3 bx bx-package"></i>
+                        </div>
+                        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
+                            <ul class="list-unstyled text-center light-300">
+                                <li class="h5 semi-bold-600 mb-0 mt-3">Basica</li>
+                                <li>Asesoramiento y Presupuesto.</li>
+<li>publicidad basica en facebook e instagram</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
+                            <a href="#" class="btn rounded-pill px-4 btn-primary light-300">$0</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Pricing List -->
+
+                <!-- Start Pricing List -->
+                <div class="pricing-list shadow-sm py-sm-0 py-5 shadow-lg ">
+                    <div class="row p-2">
+                        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
+                            <i class="display-3 bx bx-package"></i>
+                        </div>
+                        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
+                            <ul class="list-unstyled text-center light-300">
+                                <li class="h5 semi-bold-600 mb-0 mt-3">Empresarial</li>
+                                <li>Asesoramiento y Presupuesto</li>
+                                <li>Publicidad Facebook, Instagram y Twitter </li>
+                            </ul>
+                        </div>
+                        <div class="pricing-list-footer col-sm-4 col-5 text-center m-auto align-items-center">
+                            <a href="#" class="btn rounded-pill px-4 btn-primary light-300">$120/Año</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Pricing List -->
+
+                <!-- Start Pricing List -->
+                <div class="pricing-list shadow-sm rounded-botton rounded-3 py-sm-0 py-5 shadow-lg">
+                    <div class="row p-2">
+                        <div class="pricing-list-icon col-sm-3 text-center m-auto text-secondary ml-5 py-2">
+                            <i class="display-3 bx bx-package"></i>
+                        </div>
+                        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
+                            <ul class="list-unstyled text-center light-300">
+                                <li class="h5 semi-bold-600 mb-0 mt-3">Corporativa</li>
+                                <li>Asesoramiento y Presupuesto</li>
+                                <li>Publicidad Facebook, Instagram, Twitter y Google Ads. </li>
+                            </ul>
+                        </div>
+                        <div class="pricing-list-footer col-sm-4 col-5 text-center m-auto align-items-center">
+                            <a href="#" class="btn rounded-pill px-4 btn-primary light-300">$840/Año</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Pricing List -->
+                <p class="text-center"><a class="btn px-4 mt-4 mx-auto btn-outline-primary shadow-lg" href="#">Consultas por otros planes</a></p>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Start Footer -->
+    <footer id="banner-color" class="bg-secondary pt-4">
+        <div class="container">
+            <div class="row py-4">
+
+                <div class="col-lg-3 col-12 align-left">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="/assets/img/logo_size.jpg" alt="">
+                    </a>
+                    <p class="text-light my-lg-4 my-2">
+                        La mejor experiencia en negocios que puedas conocer.
+                    </p>
+                    <ul class="list-inline footer-icons light-300">
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="http://facebook.com/">
+                                <i class='bx bxl-facebook-square bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.linkedin.com/">
+                                <i class='bx bxl-linkedin-square bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.whatsapp.com/">
+                                <i class='bx bxl-whatsapp-square bx-md'></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h3 class="h4 pb-lg-3 text-light light-300">Nuestro Estudio</h2>
+                        <ul class="list-unstyled text-light light-300">
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                    class="text-decoration-none text-light" href="index.html">Home</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                    class="text-decoration-none text-light py-1" href="about.html">Nosotros</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                    class="text-decoration-none text-light py-1" href="storeOnline.html">Tiendas online</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a
+                                    class="text-decoration-none text-light py-1" href="pageWebs.html">Paginas Web</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                    class="text-decoration-none text-light py-1" href="contact.html">Contáctanos</a>
+                            </li>
+                        </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">Links</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                class="text-decoration-none text-light py-1" href="#">Negocios</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                class="text-decoration-none text-light py-1" href="#">Marketing</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                class="text-decoration-none text-light py-1" href="#">Redes Sociales</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                class="text-decoration-none text-light py-1" href="#">publicidad</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                class="text-decoration-none text-light py-1" href="#">Gráfica</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">Atendemos en:</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="tel:010-020-0340">0231-5354-4574</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="mailto:info@maxipaginasweb.com">info@maxipaginasweb.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="banner-color-2" class="w-100 bg-primary py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-start text-center text-light light-300">
+                            © Copyright 2021 maxipaginasweb. Todos los derechos reservados.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-end text-center text-light light-300">
+                            Diseñado por <a rel="sponsored" class="text-decoration-none text-light"
+                                href="https://cursophp.com.ar/" target="_blank"><strong>CAC FullStack</strong></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
